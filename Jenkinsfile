@@ -17,6 +17,7 @@ pipeline {
     stage('Deploy') {
       steps {
         echo 'Deploy Stage'
+        echo 'Modified Deployed stage'
       }
     }
   }
