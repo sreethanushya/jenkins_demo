@@ -1,5 +1,11 @@
-stage('Test') {
-  steps {
-    echo 'Running unit tests'
-  }
+pipeline {
+    agent any
+
+    stages {
+        stage('Test') {
+            steps {
+                echo 'Running unit tests'
+            }
+        }
+    }
 }
